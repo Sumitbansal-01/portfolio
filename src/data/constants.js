@@ -177,20 +177,12 @@ export const experiences = [
     role: "Software Engineer",
     company: "Indus Net Technologies",
     date: "March 2022 - Present",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    desc: "Participated in the creation of both centralized and decentralized projects, actively contributing to the conceptualization and implementation of innovative ideas and proof of concepts (POCs). Involved in tasks such as designing low-level designs (LLD), crafting database schemas, and working on both backend and frontend development.",
     skills: [
       "Node.js", "Express.js", "MongoDB", "Docker", "Python", "Flask", "ReactJS", "Redux", "HTML", "CSS", "AJAX", "JWT", "Swaager", "Blockchain",
       "Java", "Spring", "Spring Boot", "JPA", "Maven", "Git", "AWS", "MySQL"
     ],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
-  {
-    id: 1,
-    img: process.env.PUBLIC_URL + "/byjus.png",
-    role: "Business Development Trainee",
-    company: "BYJU’S",
-    date: "July 2021 - August 2021",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
   }
 ];
 

@@ -30,10 +30,10 @@ const HeroSection = () => {
                         <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
                     </HeroLeftContainer>
 
-                    <HeroRightContainer id="Right">
+                    {/* <HeroRightContainer id="Right">
 
                         <Img src={process.env.PUBLIC_URL+"/profilePic.png"} alt="hero-image" />
-                    </HeroRightContainer>
+                    </HeroRightContainer> */}
                 </HeroInnerContainer>
 
             </HeroContainer>
