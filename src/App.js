@@ -1,11 +1,9 @@
 import { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
-import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -32,7 +30,6 @@ function App() {
   console.log(openModal)
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <Router >
         <Navbar changeTheme={() => {
           setDarkMode(!darkMode)
         }} />
@@ -52,7 +49,6 @@ function App() {
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
         </Body>
-      </Router>
     </ThemeProvider>
   );
 }

@@ -8,11 +8,11 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/Sumitbansal-01",
-  resume:"",
-  linkedin: "https://www.linkedin.com/in/sumit-bansal-49a2021b9/",
-  leetcode: "https://leetcode.com/sumitbansalk198/",
+    `As an experienced Software Engineer, I bring expertise in both backend and frontend development. My portfolio reflects a diverse range of projects, demonstrating my ability to tackle complex challenges and deliver high-quality solutions. I specialize in crafting robust and scalable backend solutions and possess a strong foundation in Data Structures and Algorithms(DSA). With a collaborative mindset and strong interpersonal skills, eager to contribute my expertise to your team!`,
+github: "https://github.com/Sumitbansal-01",
+  resume: "https://docs.google.com/document/d/1saOJlmCkmrKOdBiO_3cZ8KeBFdHdbqyZu0xqpjTxE9s/edit?usp=sharing",
+    linkedin: "https://www.linkedin.com/in/sumit-bansal-49a2021b9/",
+      leetcode: "https://leetcode.com/sumitbansalk198/",
 };
 
 export const skills = [
@@ -135,19 +135,19 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:process.env.PUBLIC_URL + "/git.png"
+        image: process.env.PUBLIC_URL + "/git.png"
       },
       {
         name: "Docker",
-        image:process.env.PUBLIC_URL + "/docker.webp"
+        image: process.env.PUBLIC_URL + "/docker.webp"
       },
       {
         name: "AWS",
-        image:process.env.PUBLIC_URL + "/aws.svg"
+        image: process.env.PUBLIC_URL + "/aws.svg"
       },
       {
         name: "Maven",
-        image:process.env.PUBLIC_URL + "/maven.png"
+        image: process.env.PUBLIC_URL + "/maven.png"
       },
       {
         name: "VS Code",
@@ -173,20 +173,20 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: process.env.PUBLIC_URL+"/int.png",
+    img: process.env.PUBLIC_URL + "/int.png",
     role: "Software Engineer",
     company: "Indus Net Technologies",
     date: "March 2022 - Present",
     desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
     skills: [
-      "Node.js", "Express.js", "MongoDB", "Docker", "Python" , "Flask", "ReactJS", "Redux", "HTML", "CSS", "AJAX", "JWT", "Swaager", "Blockchain", 
+      "Node.js", "Express.js", "MongoDB", "Docker", "Python", "Flask", "ReactJS", "Redux", "HTML", "CSS", "AJAX", "JWT", "Swaager", "Blockchain",
       "Java", "Spring", "Spring Boot", "JPA", "Maven", "Git", "AWS", "MySQL"
     ],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
     id: 1,
-    img: process.env.PUBLIC_URL +"/byjus.png",
+    img: process.env.PUBLIC_URL + "/byjus.png",
     role: "Business Development Trainee",
     company: "BYJU’S",
     date: "July 2021 - August 2021",
@@ -228,7 +228,7 @@ export const projects = [
     description:
       "This is a npm package that allows user to easily and securely upload the data on Amazon S3. By this, you can encrypt and decrypt the data, upload and download the data from S3 and also you can do encryption, compression, and upload together.",
     // image: process.env.PUBLIC_URL +"/s3.png",
-    tags: ["Amazon S3","npm", "Node Js"],
+    tags: ["Amazon S3", "npm", "Node Js"],
     category: "live",
     github: "https://github.com/Sumitbansal-01/s3-encryptor-uploader",
     webapp: "https://www.npmjs.com/package/s3-encryptor-uploader"
@@ -238,7 +238,7 @@ export const projects = [
     title: "Escrow Management System",
     description:
       "It is a decentralized project. Here user can create their escrow contract. First user needs to log in and then add funds. Here for payment user needs to buy some ERC20 coins named EFMS. Users can create multiple escrow contracts and every thing it can track and see the history of every contract. Seeler received the EFMS token and he can withdraw it AllOutSharp. It is deployed on the Goerli Test Network and the contract ID is 0x6CB986118c646c0D51303b82459f8Ae1086b1De0",
-    tags: ["ReactJS", "Bootstrap", "HTML", "CSS","Truffle", "Web3", "Ethereum", "Solidity", "Vercel"],
+    tags: ["ReactJS", "Bootstrap", "HTML", "CSS", "Truffle", "Web3", "Ethereum", "Solidity", "Vercel"],
     category: "live",
     github: "https://github.com/Sumitbansal-01/EscrowManagementSystent",
     webapp: "https://escrow-management-systent.vercel.app/"
@@ -248,7 +248,7 @@ export const projects = [
     title: "File Management System",
     description:
       "It is not completed. It is a file storage project. User can create folder, upload files, search global available files, create their private file , share them, change the version etc.",
-    tags: ["Node.js", "Express.js", "JWT", "MongoDB", "Mongoose", "REST APIs", "MVC"], 
+    tags: ["Node.js", "Express.js", "JWT", "MongoDB", "Mongoose", "REST APIs", "MVC"],
     category: "working",
     github: "https://github.com/Sumitbansal-01/file-management-system.git",
     // webapp: "https://escrow-management-systent.vercel.app/"
