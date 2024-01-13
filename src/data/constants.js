@@ -10,7 +10,7 @@ export const Bio = {
   description:
     `As an experienced Software Engineer, I bring expertise in both backend and frontend development. My portfolio reflects a diverse range of projects, demonstrating my ability to tackle complex challenges and deliver high-quality solutions. I specialize in crafting robust and scalable backend solutions and possess a strong foundation in Data Structures and Algorithms(DSA). With a collaborative mindset and strong interpersonal skills, eager to contribute my expertise to your team!`,
 github: "https://github.com/Sumitbansal-01",
-  resume: "https://docs.google.com/document/d/1saOJlmCkmrKOdBiO_3cZ8KeBFdHdbqyZu0xqpjTxE9s/edit?usp=sharing",
+  resume: "https://drive.google.com/file/d/17FtfOj2cayTS45CJpAqL6h6BtHjPMo7q/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/sumit-bansal-49a2021b9/",
       leetcode: "https://leetcode.com/sumitbansalk198/",
 };
