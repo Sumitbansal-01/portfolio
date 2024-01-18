@@ -242,7 +242,7 @@ export const projects = [
     title: "File Management System",
     description:
       "It is not completed. It is a file storage project. User can create folder, upload files, search global available files, create their private file , share them, change the version etc.",
-    tags: ["Java", "Maven", "Spring", "Spring Boot", "JPA", "H2" , "Swagger", "REST APIs"],
+    tags: ["Node.js", "Express.js", "JWT", "MongoDB", "Mongoose", "REST APIs", "MVC"],
     category: "working",
     github: "https://github.com/Sumitbansal-01/file-management-system.git",
     // webapp: "https://escrow-management-systent.vercel.app/"
@@ -252,9 +252,9 @@ export const projects = [
     title: "OAuth Service Provider",
     description:
       "Developed a Java and Spring Boot backend system with OAuth-based user and client authentication. The system supports user and client registration, login, and token-based authentication with a 1-hour expiry. Clients benefit from a free sample period, promoting engagement before opting for monetized plans. Swagger documentation ensures clarity, providing comprehensive API details, including error handling strategies",
-    tags: ["Node.js", "Express.js", "JWT", "MongoDB", "Mongoose", "REST APIs", "MVC"],
+    tags: ["Java", "Maven", "Spring", "Spring Boot", "JPA", "H2" , "Swagger", "REST APIs"],
     category: "working",
-    github: "https://github.com/Sumitbansal-01/file-management-system.git",
+    github: "https://github.com/Sumitbansal-01/OAuth.git",
     // webapp: "https://escrow-management-systent.vercel.app/"
   },
 ];
